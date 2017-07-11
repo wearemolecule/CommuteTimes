@@ -15,4 +15,4 @@ results <- mapply(processDirections, name=e$First, origin=e$Address, destination
 write.table(results, "~/Desktop/commutes.csv", sep=",")
 
 ````
-Note: if you're using an OS other than MacOS, you may need to tweak the Time Zone names in the script.
+Note: if you're using an OS other than macOS, you _may_ need to tweak the Time Zone names in the script.
